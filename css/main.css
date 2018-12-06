@@ -113,11 +113,21 @@ html {  box-sizing: border-box;  }
 	background-color:blue;
 	height: auto;
 }
+.col-1-2rs{
+	float:left;
+	width:50%;
+	background-color:red;
+	height: 400px;
+	overflow:auto;
+	
+}
 .col-1-2r{
 	float:left;
 	width:50%;
 	background-color:red;
-	height: auto;
+	height: 600px;
+	overflow:auto;
+	
 }
 div{
     border-collapse: collapse;
