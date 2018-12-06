@@ -99,16 +99,48 @@ textarea {
 
 
 
+*{
+	margin: 0;
+	padding:0;
+}
+html {  box-sizing: border-box;  }
+*, *:before, *:after {  box-sizing: inherit;
+	   font-family: sans-serif;
+	   }
+.col-1-2b{
+	float:left;
+	width:50%;
+	background-color:blue;
+	height: auto;
+}
+.col-1-2r{
+	float:left;
+	width:50%;
+	background-color:red;
+	height: auto;
+}
+div{
+    border-collapse: collapse;
 
-
-
-
-
-
-
-
-
-
+}
+.col-1-8b{
+	float:left;
+	width:12.5%;
+	background-color:blue;
+	height: 4em;
+}
+.col-1-8r{
+	float:left;
+	width:12.5%;
+	background-color:red;
+	height: 4em;
+}
+.col-1-8t{
+	float:left;
+	width:12.5%;
+	background-color:#f7f7a7;
+	height: 4em;
+}
 
 
 
