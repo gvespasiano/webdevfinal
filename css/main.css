@@ -108,6 +108,59 @@ html {  box-sizing: border-box;  }
 /* ==========================================================================
 	      structure
 ========================================================================== */	   
+body{
+	font-family: proxima-nova, sans-serif;
+
+	font-weight: 300;
+
+	font-style: normal;
+}
+.bold{
+
+	font-weight: 700;
+
+	font-style: normal;
+}
+#endfloat{
+	display:block;
+	width:300px;
+	font-weight: 700;
+	float:right;
+	padding-top:50px;
+}
+.semi{
+	font-weight: 525;
+	padding-bottom:35px;
+	padding-top:15px;
+}
+.list{
+	font-weight: 700;
+	font-size:.98em;
+}
+.col-1-2rs ol{
+	padding-left:0px;
+}
+.col-1-2rs ul{
+	padding-left:40px;
+	line-height:1.6em;
+	font-weight: 325;
+	padding-bottom:50px;
+}
+.col-1-2rs img{
+	padding-top:50px;
+}
+.col-1-2rs ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+.col-1-2rs ol li {
+  counter-increment: my-awesome-counter;
+}
+.col-1-2rs ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: #e55655;
+  font-weight: bold;
+}
 header{
 	width:100%;
 	height:1200px;
@@ -158,7 +211,11 @@ header ul{
 	height: 1000px;
 	overflow:auto;
 	line-height:2em;
-	padding:100px;
+	padding:120px;
+}
+.col-1-2rs h2{
+	font-size:1.3em;
+	padding:20px 0px 50px 0px;
 }
 .col-1-2c {
 	float:left;
@@ -167,7 +224,7 @@ header ul{
 	height: 1000px;
 }
 .col-1-2rs p{
-	padding-bottom:50px;
+	padding-bottom:20px;
 }
 .col-1-2r{
 	float:left;
