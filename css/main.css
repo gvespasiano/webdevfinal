@@ -185,9 +185,9 @@ header ul{
 	left:-105px;
 }
 .melanie img{
-	position:relative;
-	top:50px;
-	display:none;
+	position:absolute;
+	top:1250px;
+	left:610.5px;
 }
 .text img{
 	display:none;
@@ -198,11 +198,60 @@ header ul{
 	background-color:#e55655;
 	height: 1000px;
 }
+.col-1-2b img{
+	position:relative;
+	left:30%;
+	top:400px;
+}
+.col-1-2b ul{
+	position:relative;
+	top:800px;
+	left:200px;
+}
+.col-1-2b ul a{
+	color:black;
+	padding-left:10px;
+	font-size:.7em;
+	font-weight:750;
+}
+.col-1-2a img{
+	position:relative;
+	left:30%;
+	top:400px;
+}
+.col-1-2a ul{
+	position:relative;
+	top:800px;
+	left:200px;
+}
+.col-1-2a ul a{
+	color:black;
+	padding-left:10px;
+	font-size:.7em;
+	font-weight:750;
+}
 .col-1-2a{
 	float:left;
 	width:50%;
 	background-color:white;
 	height: 1000px;
+}
+.col-1-2c img{
+	position:relative;
+	left:30%;
+	top:400px;
+}
+.col-1-2c ul{
+	position:relative;
+	top:800px;
+	left:200px;
+}
+.col-1-2c ul a{
+	color:white;
+	padding-left:10px;
+	font-size:.7em;
+	font-weight:750;
+	text-decoration:none;
 }
 .col-1-2rs{
 	float:left;
@@ -268,6 +317,7 @@ footer{
 }
 .port-nav li{
 	display: inline-block;
+	text-decoration:none;
 }
 
 /* ==========================================================================
