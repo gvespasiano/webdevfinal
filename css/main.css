@@ -133,6 +133,41 @@ body{
 	padding-bottom:35px;
 	padding-top:15px;
 }
+.portitem{
+	width:100%;
+}
+.col-1-2r img{
+	width:100%;
+	height:auto;
+}
+#hexagon {
+  width: 100px;
+  height: 55px;
+  background: red;
+  position: absolute;
+}
+#hexagon:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid red;
+}
+#hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid red;
+}
 .list{
 	font-weight: 700;
 	font-size:.98em;
