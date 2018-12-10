@@ -214,6 +214,11 @@ header img{
 	top:325px;
 	
 }
+footer img{
+	position:relative;
+	top:200px;
+	left:470px;
+}
 header ul{
 	position:relative;
 	top:550px;
@@ -322,37 +327,100 @@ div{
 }
 footer{
 	clear:both;
-	height:1000px;
+	height:800px;
 	background-color:#e55655;
 }
 .portitem{
 	height:500px;
 }
-
+#contactinfo{
+	line-height:1.7em;
+}
+#contactinfo p{
+	padding-bottom:0px;
+}
 /* ==========================================================================
    Navigation
    ========================================================================== */
-
+.a{
+	color:#e55655;
+}
 .main-nav ul{
 	list-style-type:none;
 	padding:0;
 	margin:0;
+	position:relative;
+	left:-5px;
 }
 .main-nav li{
 	display: inline-block;
-	padding:1em;
+	padding:.2em;
 }
 .main-nav a{
-	color:#e55655
+	color:#e55655;
+	text-decoration:none;
 }
+
 .port-nav ul{
 	list-style-type:none;
 	padding:0;
 	margin:0;
 }
+.port-nav h3{
+	color:black;
+}
+.port-nav a{
+	text-decoration:none;
+}
 .port-nav li{
 	display: inline-block;
 	text-decoration:none;
+	padding-left:10px;
+	position:relative;
+	left:-55px;
+}
+.port-nav2 ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.port-nav2 h3{
+	color:black;
+}
+.port-nav2 a{
+	text-decoration:none;
+}
+.port-nav2 li{
+	display: inline-block;
+	text-decoration:none;
+	padding-left:5px;
+	position:relative;
+	left:-90px;
+}
+.port-nav1 ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:relative;
+	
+}
+.port-nav1 h3{
+	color:#e55
+}
+.port-nav1 a{
+	color:#e55655;
+	text-decoration:none;
+}
+.port-nav1 li{
+	display: inline-block;
+	text-decoration:none;
+	padding-left:10px;
+	position:relative;
+	left:-75px;
+}
+
+#contactinfo a{
+	color:#e55655;
 }
 
 /* ==========================================================================
